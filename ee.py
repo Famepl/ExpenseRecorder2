@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 GUI = Tk()
-GUI.title('โปรแกมบันทึกค่าใช้จ่าย by Fame')
+GUI.title('โปรแกมบันทึกค่าใช้จ่าย v.1.0 by Fame')
 GUI.geometry('500x700+500+50')
 
 
@@ -23,6 +23,7 @@ filemunu.add_cascade(label='Import CSV')
 filemunu.add_cascade(label='Export to Googlesheet')
 
 def About():
+    print('About Menu')
     messagebox.showinfo('About','สวัสดีครับ โปรแกรมนี้คือโปรแกรมบันทึกข้อมูล\nสนใจบริจาคเราไหม? ขอ 1 ก็พอแล้ว\nฺBTC Adderss: abc')
 
 
